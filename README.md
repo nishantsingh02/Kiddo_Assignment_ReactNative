@@ -6,6 +6,16 @@ The mobile homepage is designed to be fully dynamic and volatile, allowing live 
 
 ---
 
+## 📹 Demo Video
+
+[![Watch Demo](https://img.shields.io/badge/Watch-Demo-red?logo=youtube)](https://www.youtube.com/watch?v=WMMxKpGWJU8)
+
+## 🏗️ System Design
+
+<p align="center">
+  <img src="./assets/system design.png" alt="System Design" width="800"/>
+</p>
+
 ## 📋 The Technical Assignment
 
 This codebase is a complete, successful implementation of the **Kiddo Technical Assignment** outlined in [Kiddo_Assignment_tech.md](file:///C:/Users/nraj1/Desktop/My%20Project/Kiddos/Kiddo_Assignment_tech.md). Below is a summary of the core and advanced requirements specified in the challenge, and how they have been addressed:
