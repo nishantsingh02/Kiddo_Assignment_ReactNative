@@ -1,0 +1,132 @@
+{
+  "version": "1.0.0",
+  "theme": {
+    "primary": "#1565C0",
+    "primaryLight": "#BBDEFB",
+    "accent": "#FDD835",
+    "dark": "#0D47A1",
+    "surface": "#FFFFFF",
+    "background": "#FFFDE7",
+    "backgroundWarm": "#FFF9C4",
+    "border": "#E0E0E0",
+    "textPrimary": "#0D47A1",
+    "textSecondary": "#F57F17",
+    "textDisabled": "#BDBDBD",
+    "error": "#D32F2F",
+    "success": "#2E7D32",
+    "warning": "#F57C00",
+    "starRating": "#FFB300",
+    "borderRadius": 10,
+    "fontScale": 1.0
+  },
+  "campaign": {
+    "id": "BACK_TO_SCHOOL",
+    "name": "Back to School Mega-Sale",
+    "theme_override": {
+      "primary": "#1565C0",
+      "background": "#FFFDE7",
+      "secondary": "#FDD835"
+    },
+    "overlay": {
+      "type": "FULL_SCREEN_OVERLAY",
+      "animation_type": "reanimated",
+      "loop": true,
+      "autoplay": true
+    }
+  },
+  "sections": [
+    {
+      "id": "bts_hero_01",
+      "type": "BANNER_HERO",
+      "image_url": "photos/Boys_Main_Banner.webp",
+      "local_image": "Boys_Main_Banner.webp",
+      "title": "Back to School Sale! 🎒",
+      "subtitle": "Get up to 40% off on study tools & backpacks",
+      "cta_label": "Shop Now",
+      "action": {
+        "type": "APPLY_COUPON",
+        "payload": {
+          "code": "SALE20"
+        }
+      }
+    },
+    {
+      "id": "bts_grid_01",
+      "type": "PRODUCT_GRID_2X2",
+      "heading": "Festival Study Kit Specials",
+      "products": [
+        {
+          "id": "bts_prod_01",
+          "name": "Winter Wonderland Sleepsuit",
+          "price": 499,
+          "original_price": 799,
+          "image_url": "photos/baby-winter-wonderland-sleepsuit-onesie_2_aa0gaa.webp",
+          "local_image": "baby-winter-wonderland-sleepsuit-onesie_2_aa0gaa.webp",
+          "badge": "SALE",
+          "action": {
+            "type": "DEEP_LINK",
+            "payload": { "url": "/product/sleepsuit" }
+          },
+          "add_to_cart_action": {
+            "type": "ADD_TO_CART",
+            "payload": { "id": "bts_prod_01", "name": "Winter Wonderland Sleepsuit", "price": 499, "local_image": "baby-winter-wonderland-sleepsuit-onesie_2_aa0gaa.webp" }
+          }
+        },
+        {
+          "id": "bts_prod_02",
+          "name": "Toddler Activity Blocks Set",
+          "price": 899,
+          "image_url": "photos/61nd7NqagVL._SX466.webp",
+          "local_image": "61nd7NqagVL._SX466.webp",
+          "badge": "HOT",
+          "action": {
+            "type": "DEEP_LINK",
+            "payload": { "url": "/product/activity-blocks" }
+          },
+          "add_to_cart_action": {
+            "type": "ADD_TO_CART",
+            "payload": { "id": "bts_prod_02", "name": "Toddler Activity Blocks Set", "price": 899, "local_image": "61nd7NqagVL._SX466.webp" }
+          }
+        }
+      ]
+    },
+    {
+      "id": "bts_collection_01",
+      "type": "DYNAMIC_COLLECTION",
+      "theme_label": "Playhouse Accessories",
+      "scroll_direction": "horizontal",
+      "items": [
+        {
+          "id": "bts_item_11",
+          "title": "Wooden Building Blocks",
+          "price": 599,
+          "image_url": "photos/51RBBJY0ZFL._SL1080_b0d5a0a8-377f-498d-aac4-0189af15865e.webp",
+          "local_image": "51RBBJY0ZFL._SL1080_b0d5a0a8-377f-498d-aac4-0189af15865e.webp",
+          "action": {
+            "type": "DEEP_LINK",
+            "payload": { "url": "/product/wooden-blocks" }
+          },
+          "add_to_cart_action": {
+            "type": "ADD_TO_CART",
+            "payload": { "id": "bts_item_11", "name": "Wooden Building Blocks", "price": 599, "local_image": "51RBBJY0ZFL._SL1080_b0d5a0a8-377f-498d-aac4-0189af15865e.webp" }
+          }
+        },
+        {
+          "id": "bts_item_12",
+          "title": "Toddler Casual Wear Set",
+          "price": 620,
+          "image_url": "photos/187Q0MR-lT1ZE8TIQUTM69vAuXDPxma3c_w1000_a5713258-5bf0-479f-91d1-a3d5b43cfebf.webp",
+          "local_image": "187Q0MR-lT1ZE8TIQUTM69vAuXDPxma3c_w1000_a5713258-5bf0-479f-91d1-a3d5b43cfebf.webp",
+          "action": {
+            "type": "DEEP_LINK",
+            "payload": { "url": "/product/casual-set" }
+          },
+          "add_to_cart_action": {
+            "type": "ADD_TO_CART",
+            "payload": { "id": "bts_item_12", "name": "Toddler Casual Wear Set", "price": 620, "local_image": "187Q0MR-lT1ZE8TIQUTM69vAuXDPxma3c_w1000_a5713258-5bf0-479f-91d1-a3d5b43cfebf.webp" }
+          }
+        }
+      ]
+    }
+  ]
+}

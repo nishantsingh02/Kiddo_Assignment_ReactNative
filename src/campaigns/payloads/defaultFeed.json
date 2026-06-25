@@ -1,0 +1,258 @@
+{
+  "version": "1.0.0",
+  "theme": {
+    "primary": "#008080",
+    "primaryLight": "#E0F2F2",
+    "accent": "#E4B8AD",
+    "dark": "#202020",
+    "surface": "#FFFFFF",
+    "background": "#F5F5F5",
+    "backgroundWarm": "#FFF5F0",
+    "border": "#E8E8E8",
+    "textPrimary": "#202020",
+    "textSecondary": "#757575",
+    "textDisabled": "#BDBDBD",
+    "error": "#D32F2F",
+    "success": "#2E7D32",
+    "warning": "#F57C00",
+    "starRating": "#FFB300",
+    "borderRadius": 12,
+    "fontScale": 1.0
+  },
+  "campaign": null,
+  "sections": [
+    {
+      "id": "hero_carousel_01",
+      "type": "BANNER_HERO",
+      "banners": [
+        {
+          "id": "b1",
+          "image_url": "photos/Boys_Main_Banner.webp",
+          "local_image": "Boys_Main_Banner.webp",
+          "title": "Boys Wear Collection 👕",
+          "subtitle": "Active styles for growing boys",
+          "cta_label": "Shop Boys",
+          "action": {
+            "type": "DEEP_LINK",
+            "payload": { "url": "/category/boys" }
+          }
+        },
+        {
+          "id": "b2",
+          "image_url": "photos/Girl_Main_Banner.webp",
+          "local_image": "Girl_Main_Banner.webp",
+          "title": "Girls Wear Collection 👗",
+          "subtitle": "Lovely dresses and coordinates",
+          "cta_label": "Shop Girls",
+          "action": {
+            "type": "DEEP_LINK",
+            "payload": { "url": "/category/girls" }
+          }
+        },
+        {
+          "id": "b3",
+          "image_url": "photos/Toys_Main_Banner.webp",
+          "local_image": "Toys_Main_Banner.webp",
+          "title": "Toy Wonderland 🧸",
+          "subtitle": "Puzzles, active kits & learning toys",
+          "cta_label": "Explore Toys",
+          "action": {
+            "type": "DEEP_LINK",
+            "payload": { "url": "/category/toys" }
+          }
+        },
+        {
+          "id": "b4",
+          "image_url": "photos/Baby_Gear_Main_Banner.webp",
+          "local_image": "Baby_Gear_Main_Banner.webp",
+          "title": "Baby Gear Essentials 🍼",
+          "subtitle": "Strollers, high chairs & feeding gear",
+          "cta_label": "Shop Baby Gear",
+          "action": {
+            "type": "DEEP_LINK",
+            "payload": { "url": "/category/baby-gear" }
+          }
+        },
+        {
+          "id": "b5",
+          "image_url": "photos/Books_Main_Banner.webp",
+          "local_image": "Books_Main_Banner.webp",
+          "title": "Kids Book Depot 📚",
+          "subtitle": "Early readers, fairy tales & pop-ups",
+          "cta_label": "Explore Books",
+          "action": {
+            "type": "DEEP_LINK",
+            "payload": { "url": "/category/books" }
+          }
+        },
+        {
+          "id": "b6",
+          "image_url": "photos/New_Moms_Page_Banner.webp",
+          "local_image": "New_Moms_Page_Banner.webp",
+          "title": "Essentials for New Moms 🤰",
+          "subtitle": "Comfort and care for mom & child",
+          "cta_label": "View Care Products",
+          "action": {
+            "type": "DEEP_LINK",
+            "payload": { "url": "/category/new-moms" }
+          }
+        }
+      ]
+    },
+    {
+      "id": "grid_default_01",
+      "type": "PRODUCT_GRID_2X2",
+      "heading": "New Arrivals & Bestsellers",
+      "products": [
+        {
+          "id": "prod_101",
+          "name": "Winter Wonderland Sleepsuit",
+          "price": 499,
+          "original_price": 799,
+          "image_url": "photos/baby-winter-wonderland-sleepsuit-onesie_2_aa0gaa.webp",
+          "local_image": "baby-winter-wonderland-sleepsuit-onesie_2_aa0gaa.webp",
+          "badge": "SALE",
+          "action": {
+            "type": "OPEN_MODAL",
+            "payload": { "modal_id": "winter_wonderland_details" }
+          },
+          "add_to_cart_action": {
+            "type": "ADD_TO_CART",
+            "payload": { "id": "prod_101", "name": "Winter Wonderland Sleepsuit", "price": 499, "local_image": "baby-winter-wonderland-sleepsuit-onesie_2_aa0gaa.webp" }
+          }
+        },
+        {
+          "id": "prod_102",
+          "name": "Classic Black Onesie Suit",
+          "price": 549,
+          "image_url": "photos/Black_1_10c0835a-b8c7-4431-b4e0-89272d392737.webp",
+          "local_image": "Black_1_10c0835a-b8c7-4431-b4e0-89272d392737.webp",
+          "badge": "NEW",
+          "action": {
+            "type": "DEEP_LINK",
+            "payload": { "url": "/product/black-onesie" }
+          },
+          "add_to_cart_action": {
+            "type": "ADD_TO_CART",
+            "payload": { "id": "prod_102", "name": "Classic Black Onesie Suit", "price": 549, "local_image": "Black_1_10c0835a-b8c7-4431-b4e0-89272d392737.webp" }
+          }
+        },
+        {
+          "id": "prod_103",
+          "name": "Pastel Knitted Sweater",
+          "price": 799,
+          "original_price": 999,
+          "image_url": "photos/01_6_396d76c1-6654-44b3-b739-e67c316202e1.webp",
+          "local_image": "01_6_396d76c1-6654-44b3-b739-e67c316202e1.webp",
+          "badge": "HOT",
+          "action": {
+            "type": "DEEP_LINK",
+            "payload": { "url": "/product/knitted-sweater" }
+          },
+          "add_to_cart_action": {
+            "type": "ADD_TO_CART",
+            "payload": { "id": "prod_103", "name": "Pastel Knitted Sweater", "price": 799, "local_image": "01_6_396d76c1-6654-44b3-b739-e67c316202e1.webp" }
+          }
+        },
+        {
+          "id": "prod_104",
+          "name": "Infant Teething Toy Ring",
+          "price": 180,
+          "image_url": "photos/41Fr0hXWn6L.jpg",
+          "local_image": "41Fr0hXWn6L.jpg",
+          "action": {
+            "type": "DEEP_LINK",
+            "payload": { "url": "/product/teether" }
+          },
+          "add_to_cart_action": {
+            "type": "ADD_TO_CART",
+            "payload": { "id": "prod_104", "name": "Infant Teething Toy Ring", "price": 180, "local_image": "41Fr0hXWn6L.jpg" }
+          }
+        }
+      ]
+    },
+    {
+      "id": "collection_default_01",
+      "type": "DYNAMIC_COLLECTION",
+      "theme_label": "Trending Outfits & Toys",
+      "scroll_direction": "horizontal",
+      "items": [
+        {
+          "id": "outfit_201",
+          "title": "Toddler Wooden Building Blocks",
+          "price": 599,
+          "image_url": "photos/71Fb39HZ5XL._SL1500.webp",
+          "local_image": "71Fb39HZ5XL._SL1500.webp",
+          "action": {
+            "type": "DEEP_LINK",
+            "payload": { "url": "/product/wooden-blocks" }
+          },
+          "add_to_cart_action": {
+            "type": "ADD_TO_CART",
+            "payload": { "id": "outfit_201", "name": "Toddler Wooden Building Blocks", "price": 599, "local_image": "71Fb39HZ5XL._SL1500.webp" }
+          }
+        },
+        {
+          "id": "outfit_202",
+          "title": "Premium Denim Jumpsuit",
+          "price": 950,
+          "image_url": "photos/Screenshot_2026-04-10_124132_lyoa5u.webp",
+          "local_image": "Screenshot_2026-04-10_124132_lyoa5u.webp",
+          "action": {
+            "type": "DEEP_LINK",
+            "payload": { "url": "/product/denim-jumpsuit" }
+          },
+          "add_to_cart_action": {
+            "type": "ADD_TO_CART",
+            "payload": { "id": "outfit_202", "name": "Premium Denim Jumpsuit", "price": 950, "local_image": "Screenshot_2026-04-10_124132_lyoa5u.webp" }
+          }
+        },
+        {
+          "id": "outfit_203",
+          "title": "Warm Fleece Hooded Suit",
+          "price": 600,
+          "image_url": "photos/WhatsApp_Image_2026-03-08_at_11.26.09_PM_0f0e04e9-d51f-4dd3-a7f5-5afa74d96096.webp",
+          "local_image": "WhatsApp_Image_2026-03-08_at_11.26.09_PM_0f0e04e9-d51f-4dd3-a7f5-5afa74d96096.webp",
+          "action": {
+            "type": "DEEP_LINK",
+            "payload": { "url": "/product/fleece-suit" }
+          },
+          "add_to_cart_action": {
+            "type": "ADD_TO_CART",
+            "payload": { "id": "outfit_203", "name": "Warm Fleece Hooded Suit", "price": 600, "local_image": "WhatsApp_Image_2026-03-08_at_11.26.09_PM_0f0e04e9-d51f-4dd3-a7f5-5afa74d96096.webp" }
+          }
+        },
+        {
+          "id": "outfit_204",
+          "title": "Knitted Baby Jumper",
+          "price": 890,
+          "image_url": "photos/Front_00f9f081-a3b8-43b7-b833-9abe9c95f814.webp",
+          "local_image": "Front_00f9f081-a3b8-43b7-b833-9abe9c95f814.webp",
+          "action": {
+            "type": "DEEP_LINK",
+            "payload": { "url": "/product/baby-jumper" }
+          },
+          "add_to_cart_action": {
+            "type": "ADD_TO_CART",
+            "payload": { "id": "outfit_204", "name": "Knitted Baby Jumper", "price": 890, "local_image": "Front_00f9f081-a3b8-43b7-b833-9abe9c95f814.webp" }
+          }
+        },
+        {
+          "id": "outfit_205",
+          "title": "Cotton Knit Sleepwear",
+          "price": 799,
+          "image_url": "photos/ad46eff2-cfe7-4cf6-923a-411f3a8a4ff9_full.webp",
+          "local_image": "ad46eff2-cfe7-4cf6-923a-411f3a8a4ff9_full.webp",
+          "action": {
+            "type": "DEEP_LINK",
+            "payload": { "url": "/product/knit-sleepwear" }
+          },
+          "add_to_cart_action": {
+            "type": "ADD_TO_CART",
+            "payload": { "id": "outfit_205", "name": "Cotton Knit Sleepwear", "price": 799, "local_image": "ad46eff2-cfe7-4cf6-923a-411f3a8a4ff9_full.webp" }
+          }
+        }
+      ]
+    }
+  ]
+}

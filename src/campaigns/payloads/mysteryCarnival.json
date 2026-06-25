@@ -1,0 +1,94 @@
+{
+  "version": "1.0.0",
+  "theme": {
+    "primary": "#C62828",
+    "primaryLight": "#FFCDD2",
+    "accent": "#FFD600",
+    "dark": "#B71C1C",
+    "surface": "#FFFFFF",
+    "background": "#FCE4EC",
+    "backgroundWarm": "#FFF5F0",
+    "border": "#FFCDD2",
+    "textPrimary": "#B71C1C",
+    "textSecondary": "#C62828",
+    "textDisabled": "#BDBDBD",
+    "error": "#D32F2F",
+    "success": "#2E7D32",
+    "warning": "#F57C00",
+    "starRating": "#FFB300",
+    "borderRadius": 16,
+    "fontScale": 1.05
+  },
+  "campaign": {
+    "id": "MYSTERY_CARNIVAL",
+    "name": "Mystery Gift Carnival",
+    "theme_override": {
+      "primary": "#C62828",
+      "background": "#FCE4EC",
+      "secondary": "#FFD600"
+    },
+    "overlay": {
+      "type": "FULL_SCREEN_OVERLAY",
+      "animation_type": "reanimated",
+      "loop": true,
+      "autoplay": true
+    }
+  },
+  "sections": [
+    {
+      "id": "carnival_hero_01",
+      "type": "BANNER_HERO",
+      "image_url": "photos/Front_00f9f081-a3b8-43b7-b833-9abe9c95f814.webp",
+      "local_image": "Front_00f9f081-a3b8-43b7-b833-9abe9c95f814.webp",
+      "title": "Mystery Gift Carnival! 🎪",
+      "subtitle": "Get a mystery gift discount automatically applied!",
+      "cta_label": "Claim Surprise Coupon",
+      "action": {
+        "type": "APPLY_MYSTERY_GIFT_COUPON",
+        "payload": {
+          "code": "MYSTERY2024"
+        }
+      }
+    },
+    {
+      "id": "carnival_grid_01",
+      "type": "PRODUCT_GRID_2X2",
+      "heading": "Carnival Toy Highlights",
+      "products": [
+        {
+          "id": "carnival_prod_01",
+          "name": "Winter Wonderland Sleepsuit",
+          "price": 499,
+          "original_price": 799,
+          "image_url": "photos/baby-winter-wonderland-sleepsuit-onesie_2_aa0gaa.webp",
+          "local_image": "baby-winter-wonderland-sleepsuit-onesie_2_aa0gaa.webp",
+          "badge": "SALE",
+          "action": {
+            "type": "DEEP_LINK",
+            "payload": { "url": "/product/sleepsuit" }
+          },
+          "add_to_cart_action": {
+            "type": "ADD_TO_CART",
+            "payload": { "id": "carnival_prod_01", "name": "Winter Wonderland Sleepsuit", "price": 499, "local_image": "baby-winter-wonderland-sleepsuit-onesie_2_aa0gaa.webp" }
+          }
+        },
+        {
+          "id": "carnival_prod_02",
+          "name": "Toddler Activity Blocks Set",
+          "price": 899,
+          "image_url": "photos/61nd7NqagVL._SX466.webp",
+          "local_image": "61nd7NqagVL._SX466.webp",
+          "badge": "NEW",
+          "action": {
+            "type": "DEEP_LINK",
+            "payload": { "url": "/product/blocks" }
+          },
+          "add_to_cart_action": {
+            "type": "ADD_TO_CART",
+            "payload": { "id": "carnival_prod_02", "name": "Toddler Activity Blocks Set", "price": 899, "local_image": "61nd7NqagVL._SX466.webp" }
+          }
+        }
+      ]
+    }
+  ]
+}
