@@ -7,6 +7,7 @@ The mobile homepage is designed to be fully dynamic and volatile, allowing live 
 ---
 
 ## 📹 Demo Video
+You can watch the complete demo of the application on YouTube: https://www.youtube.com/watch?v=WMMxKpGWJU8
 
 [![Watch Demo](https://img.shields.io/badge/Watch-Demo-red?logo=youtube)](https://www.youtube.com/watch?v=WMMxKpGWJU8)
 
